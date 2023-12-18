@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            text-align: left;
+            margin-top: 15%;
+            border: 5px solid rgb(7, 4, 4);
+            background-color: rgb(173, 91, 91);
+            color: rgb(0, 0, 255);
+            margin: 0%;
+            padding: 5%;
+            padding-bottom: 20%;
+        }
+
+        input {
+            border: 2px solid darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label for="uname">USERNAME:</label>
+        <input type="text" name="uname" id="uname" value="" placeholder="USERNAME" required><br><br>
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" id="mail" value="" placeholder="USERMAIL" required><br><br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="password" id="password" value="" placeholder="US
+ERPASSWORD" required><br><br>
+        <label for="number">PHONE NUMBER:</label>
+        <input type="number" name="number" id="number" value="" placeholder="USERN
+UMBER" required><br><br>
+        <label for="sex">SEX:</label>
+        <input type="radio" id="sex" name="sex" value="Male">male</input>
+        <input type="radio" id="sex" name="sex" value="Female">female</input><br><br>
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" value=""><br><br>
+        <label for="lang">LANGUAGE:</label>
+        English<input type="checkbox" id="lang" name="lang" value="">
+        Telugu<input type="checkbox" id="lang" name="lang" value="">
+        Hindi<input type="checkbox" id="lang" name="lang" value="">
+        Tamil<input type="checkbox" id="lang" name="lang" value=""><br><br>
+        <label for="add">ADDRESS:</label><br>
+        <textarea rows="6" cols="60" name="comment" form="userform"></textarea><br><br>
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="reset" value="reset">
+    </form>
+</body>
+
+</html>
